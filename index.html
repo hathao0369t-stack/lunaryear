@@ -383,7 +383,7 @@
     </div>
 
     <audio id="bg-music">
-      <source src="lunar/audio/lunar.mp3" type="audio/mpeg" />
+      <source src="./lunar.mp3" type="audio/mpeg" />
     </audio>
 
     <script>
@@ -422,12 +422,12 @@
       ];
 
       const sampleImages = [
-        "./lunar/images/1.jpg",
-        "./lunar/images/2.png",
-        "./lunar/images/3.jpg",
-        "./lunar/images/4.jpg",
-        "./lunar/images/5.jpg",
-        "./lunar/images/6.jpg",
+        "./1.jpg",
+        "./2.png",
+        "./3.jpg",
+        "./4.jpg",
+        "./5.jpg",
+        "./6.jpg",
       ];
 
       const isMobile = window.innerWidth <= 480;
@@ -513,7 +513,7 @@
         };
 
         // Cuối cùng, gán nguồn ảnh để bắt đầu quá trình tải
-        lanternImgAsset.src = "./lunar/images/lunar.png";
+        lanternImgAsset.src = "./lunar.png";
       }
       // --- CLICK HANDLER với pixel-check ---
       lanternContainer.addEventListener("click", (e) => {
@@ -655,7 +655,7 @@
                 endOverlay.innerHTML = `
     <div>🎐 Hết rồi nè 🎉</div>
     <div>Vô game nhận qua nha</div>
-    <img src="./lunar/images/Thêm tiêu đề phụ.png" alt="Cảm ơn" style="width: 120px; margin-top: 15px;">
+    <img src="./Thêm tiêu đề phụ.png" alt="Cảm ơn" style="width: 120px; margin-top: 15px;">
   `;
                 document.body.appendChild(endOverlay);
 
